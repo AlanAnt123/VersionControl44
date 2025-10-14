@@ -1,8 +1,8 @@
-name = input("Hello! What's your name? ")
-print(f"Welcome, {name}! Let's do some calculations.")
+name = input("Enter your name? ")
+print(f"Welcome, {name}! Lets Calculate.")
 
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
 print("Choose an operation: +, -, *, /")
 operation = input("Enter your choice: ")
@@ -19,6 +19,6 @@ elif operation == '/':
     else:
         result = "Error! Division by zero."
 else:
-    result = "Invalid operation!"
+    result = "Invalid!"
 
 print(f"\n{name}, the result of {num1} {operation} {num2} is: {result}")
